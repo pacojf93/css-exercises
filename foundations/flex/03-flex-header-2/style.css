@@ -49,6 +49,11 @@ ul {
 
 /* solucion */
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .header,
 .left-items,
 .right-items,
