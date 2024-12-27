@@ -1,6 +1,6 @@
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  background: papayawhip;  
 }
 
 .logo {
@@ -22,4 +22,34 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* solucion */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
+.logo {
+  margin: 8px;
+}
+
+ul {
+  /* elimina el margen y el padding que tiene ul por defecto*/
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin: 8px;
 }
